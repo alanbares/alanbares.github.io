@@ -18,14 +18,19 @@
 /* #Navbar
 ================================ */
 
-.higlight {
-	color: green;
+ .navbar-default .navbar-brand {
+	color: black;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: black;
 }
 
 .navbar a.highlight:hover {
-	background-color: aqua;
+	color:black;
+	background-color: grey;
 }
 
 ul.highlight li:hover{
-	background-color: aqua;
+	background-color: grey;
 }
