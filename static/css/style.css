@@ -17,6 +17,11 @@
 
 /* #Navbar
 ================================ */
+
+.higlight {
+	color: green;
+}
+
 .navbar a.highlight:hover {
 	background-color: aqua;
 }
