@@ -10,7 +10,7 @@
 /* #Background
 ================================ */
 #mainContent {
-    background-image: url('https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg');
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d4/San_Francisco_Skyline.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -42,7 +42,13 @@ ul.highlight li:hover{
 /* #Company
 ================================ */
 
-.jumbotron {
+.company {
     background-color: transparent !important;
+	font-family: 'Ubuntu', sans-serif;
+	color:black;
+}
 
+.company h2 {
+	color: #3c71a1;
+	font-size: 5em;
 }
