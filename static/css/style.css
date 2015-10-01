@@ -18,8 +18,9 @@
 /* #Navbar
 ================================ */
 
-.col-md-12 {
-    background: #a8a6a7 ;
+.navbar-default {
+    background: #51535a;
+    border: #51535a;
 }
 
 .navbar-default .navbar-brand {
@@ -43,12 +44,14 @@ ul.highlight li:hover{
 ================================ */
 
 .company {
+    font-family: 'Ubuntu', sans-serif;
     background-color: transparent !important;
-	font-family: 'Ubuntu', sans-serif;
 	color:black;
 }
 
 .company h2 {
-	color: #3c71a1;
 	font-size: 5em;
+    color: #3c71a1;	
 }
+
+
