@@ -5,6 +5,7 @@
 1. Background Image(s) / #Background
 2. Navigation / #Navbar
 3. Company name and description / #Company
+4. Social Media Buttons / #Social 
 ------------------------------------------------------------------**/
 
 /* #Background
@@ -46,12 +47,27 @@ ul.highlight li:hover{
 .company {
     font-family: 'Ubuntu', sans-serif;
     background-color: transparent !important;
-	color: black;
+	color: grey;
 }
 
 .company h2 {
 	font-size: 5em;
     color: #3c71a1;	
+}
+
+/* #Social
+================================ */
+
+.fa-twitter, 
+.fa-linkedin,
+.fa-github,
+.fa-fire
+{
+    padding-right: 5px;
+}
+
+.fa-linkedin {
+    text-align: center;
 }
 
 
