@@ -37,7 +37,7 @@
     background-color: white;
 }
 
-ul.highlight li:hover{
+ul.highlight li:hover {
     background-color: white;
 }
 
@@ -58,16 +58,33 @@ ul.highlight li:hover{
 /* #Social
 ================================ */
 
-.fa-twitter, 
-.fa-linkedin,
-.fa-github,
-.fa-fire
-{
+.social {
+    text-align: center;
+}
+
+i {
     padding-right: 5px;
 }
 
 .fa-linkedin {
     text-align: center;
+}
+
+/* Button Animation  */
+.btn {
+    -webkit-transition:all 0.5s ease-out;
+    -moz-transition:all 0.5s ease-out;
+    -ms-transition:all 0.5s ease-out;
+    -o-transition:all 0.5s ease-out;
+    transition:all 0.5s ease-out;
+}
+
+.btn:hover {
+  -webkit-transform:scale(1.3);
+  -moz-transform:scale(1.3);
+  -ms-transform:scale(1.3);
+  -o-transform:scale(1.3);
+  transform:scale(1.3);
 }
 
 
