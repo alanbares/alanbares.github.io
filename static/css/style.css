@@ -3,17 +3,38 @@
 *Organized from top to bottom 
 
 1. Background Image(s) / #Background
-2. Navigation / #Navbar
-3. Company name and description / #Company
-4. Social Media Buttons / #Social 
+2. Parallax Scrolling / #Parallax
+3. Navigation / #Navbar
+4. Company name and description / #Company
+5. Social Media Buttons / #Social 
 ------------------------------------------------------------------**/
 
 /* #Background
 ================================ */
 #mainContent {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d4/San_Francisco_Skyline.jpg');
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+/* #Parallax
+================================ */
+
+#content1 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/57/LA_Skyline_Mountains2.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.content {
+    background-attachment: fixed;
+    height: 400px;
 }
 
 
