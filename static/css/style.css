@@ -121,3 +121,8 @@ i {
     color: white;
     
 }
+
+.about-header {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
