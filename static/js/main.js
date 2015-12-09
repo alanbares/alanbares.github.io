@@ -1,4 +1,4 @@
 $.stellar({
-   horizontalScrolling: false,
+    horizontalScrolling: false,
     responsive: true;
 });
