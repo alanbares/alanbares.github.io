@@ -32,7 +32,7 @@
 }
 
 #content3 {
-    background: url("https://static.pexels.com/photos/170/apple-laptop-notebook-notes.jpg") no-repeat fixed center;
+    background: url("https://static.pexels.com/photos/18104/pexels-photo.jpg") no-repeat fixed center;
     background-size: cover;
     padding-top: 10px;
 	background-attachment: fixed;
@@ -123,7 +123,6 @@ i {
 
 .about-me {
     padding-top: 2em;
-    
     color: white;
     
 }
@@ -139,4 +138,13 @@ i {
 .portfolio-header {
     font-family: 'Ubuntu', sans-serif;
     color: whitesmoke;
+}
+
+.project {
+	font-family: 'Ubuntu', sans-serif;
+    color: #3c71a1;
+}
+
+.project-description {
+	color: whitesmoke;
 }
