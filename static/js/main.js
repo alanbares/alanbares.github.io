@@ -1,4 +1,6 @@
+/*global $ */
+
 $.stellar({
     horizontalScrolling: false,
-    responsive: true;
+    responsive: true
 });
