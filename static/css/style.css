@@ -1,6 +1,7 @@
 /**------------------------------------------------------------------
 [Table of Contents]
 *Organized from top to bottom 
+* Name of section / Search term
 
 1. Parallax Scrolling / #Parallax
 3. Navigation / #Navbar
@@ -34,6 +35,8 @@
     background: url("https://static.pexels.com/photos/170/apple-laptop-notebook-notes.jpg") no-repeat fixed center;
     background-size: cover;
     padding-top: 10px;
+	background-attachment: fixed;
+    height: 100%;
 }
 
 
