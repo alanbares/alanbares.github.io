@@ -21,7 +21,7 @@
 }
 
 #content1 {
-    background: url("https://upload.wikimedia.org/wikipedia/commons/5/5b/A_wanderer_dancing_the_dance_of_stars_and_space.jpg") no-repeat fixed center;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Night_shot_of_Golden_Gate_Bridge_and_San_Francisco.jpg/1280px-Night_shot_of_Golden_Gate_Bridge_and_San_Francisco.jpg") no-repeat fixed center;
     background-size: cover;
 }
 
@@ -124,6 +124,7 @@ i {
 .about-me {
     padding-top: 2em;
     color: white;
+	font-weight: bold;
     
 }
 
