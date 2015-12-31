@@ -3,7 +3,7 @@
 *Organized from top to bottom 
 * Name of section / Search term
 
-1. Parallax Backgrounds / #Backgrounds
+1. Backgrounds and sizing / #Backgrounds
 3. Navigation / #Navbar
 4. Company name and description / #Company
 5. Social Media Buttons / #Social 
@@ -15,9 +15,22 @@
 /* #Backgrounds
 ================================ */
 
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}
+
+body.viewport-lg {
+    position: absolute;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll !important;
+}
+
 #mainContent {
     background-color: #3B3738;
-    overflow-x: hidden;
 }
 
 #content1 {
