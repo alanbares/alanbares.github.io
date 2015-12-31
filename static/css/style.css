@@ -17,6 +17,7 @@
 
 #mainContent {
     background-color: #3B3738;
+    overflow-x: hidden;
 }
 
 #content1 {
