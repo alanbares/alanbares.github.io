@@ -15,19 +15,6 @@
 /* #Backgrounds
 ================================ */
 
-body.modal-open {
-    overflow: hidden;
-    position: fixed;
-}
-
-body.viewport-lg {
-    position: absolute;
-}
-
-body {
-    overflow-x: hidden;
-    overflow-y: scroll !important;
-}
 
 #mainContent {
     background-color: #3B3738;
@@ -51,6 +38,11 @@ body {
 	background-color: #DFE2DB;
     padding-top: 2%;
     padding-bottom: 50px;
+}
+
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
 }
 
 /* #Navbar
