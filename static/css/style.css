@@ -9,6 +9,7 @@
 5. Social Media Buttons / #Social 
 6. About Me / #About
 7. List of Projects / #Portfolio
+8. Media Queries / #Media
 ------------------------------------------------------------------**/
 
 
@@ -153,4 +154,14 @@ i {
 
 .project-description {
 	color: whitesmoke;
+}
+
+/* #Media
+================================ */
+
+/* Mobile devices (phones) */
+@media (min-width: 320px) and (max-width: 500px) {
+    .form-mobile {
+        margin-left: 3%;
+    }
 }
