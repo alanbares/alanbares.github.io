@@ -17,28 +17,29 @@
 ================================ */
 
 
-#mainContent {
+#background {
     background-color: #3B3738;
 }
 
-#content1 {
+#section1 {
     background-color: #DFE2DB;
+    padding: 55px;
 }
 
 
-.content {
+.about-me {
     background-attachment: fixed;
     height: 400px;
 }
 
-#content3 {
+#section2 {
     background-color: #3B3738;
+    padding: 55px;
 }
 
-#content4 {
+#section3 {
 	background-color: #DFE2DB;
-    padding-top: 2%;
-    padding-bottom: 50px;
+    padding: 20px 0 55px 0;
 }
 
 .row {
@@ -166,8 +167,18 @@ i {
 ================================ */
 
 /* Mobile devices (phones) */
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width:320px) and (max-width: 500px) {
     .form-mobile {
         margin-left: 3%;
+    }
+    #section1 {
+        padding: 20px 0 20px 0;
+    }
+}
+
+/* Desktop resize */
+@media (min-width:100px) and (max-width: 300px) {
+    #section1 {
+        padding: 20px 0 20px 0;
     }
 }
