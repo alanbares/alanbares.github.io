@@ -134,8 +134,8 @@ i {
 
 .about-me {
     padding-top: 2em;
-    color: #35353a;
-	font-weight: bold;
+    color: whitesmoke;
+    font-size: 16px;
     
 }
 
@@ -159,7 +159,8 @@ i {
 }
 
 .project-description {
-	color: #586265;
+	color: #2b3031;
+    font-size: 16px;
 }
 
 .portfolio-projects {
@@ -170,9 +171,13 @@ i {
 
 /* #Contact
 ================================ */
+.contact-header {
+    color: black;
+}
 
-
-
+.contact-form-description {
+    color: whitesmoke;
+}
 
 /* #Media
 ================================ */
