@@ -9,7 +9,8 @@
 5. Social Media Buttons / #Social 
 6. About Me / #About
 7. List of Projects / #Portfolio
-8. Media Queries / #Media
+8. Contact Form / #Contact
+9. Media Queries / #Media
 ------------------------------------------------------------------**/
 
 
@@ -18,11 +19,11 @@
 
 
 #background {
-    background-color: #3B3738;
+    background-color: #cecece;
 }
 
 #section1 {
-    background-color: #DFE2DB;
+    background-color: #4a5051;
     padding: 55px;
 }
 
@@ -33,12 +34,12 @@
 }
 
 #section2 {
-    background-color: #3B3738;
+    background-color: #cecece;
     padding: 55px;
 }
 
 #section3 {
-	background-color: #DFE2DB;
+	background-color: #4a5051;
     padding: 20px 0 55px 0;
 }
 
@@ -78,7 +79,7 @@ ul.highlight li:hover {
 .company {
     font-family: 'Ubuntu', sans-serif;
     background-color: transparent !important;
-	color: grey;
+	color: #586265;
 }
 
 .company h2 {
@@ -86,6 +87,9 @@ ul.highlight li:hover {
     color: #3c71a1;	
 }
 
+.jumbotron > .heading-line {
+    border-top-color: #0099CC;
+}
 /* #Social
 ================================ */
 
@@ -145,7 +149,8 @@ i {
 
 .portfolio-header {
     font-family: 'Ubuntu', sans-serif;
-    color: whitesmoke;
+    color: #586265;
+    padding-bottom: 10px;
 }
 
 .project {
@@ -154,13 +159,19 @@ i {
 }
 
 .project-description {
-	color: whitesmoke;
+	color: #586265;
 }
 
 .portfolio-projects {
     height: 202.844px;
     width: 355px;
 }
+
+
+/* #Contact
+================================ */
+
+
 
 
 /* #Media
