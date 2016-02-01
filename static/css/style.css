@@ -141,7 +141,7 @@ i {
 
 .about-header {
     font-family: 'Ubuntu', sans-serif;
-    color: black;
+    color: #151010
 }
 
 /* #Portfolio
@@ -172,7 +172,8 @@ i {
 /* #Contact
 ================================ */
 .contact-header {
-    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    color: #151010;
 }
 
 .contact-form-description {
