@@ -22,23 +22,18 @@
     background-color: #cecece;
 }
 
-#section1 {
+.about-me {
+    background-attachment: fixed;
     background-color: #4a5051;
     padding: 55px;
 }
 
-
-.about-me {
-    background-attachment: fixed;
-    height: 400px;
-}
-
-#section2 {
+.projects {
     background-color: #cecece;
     padding: 55px;
 }
 
-#section3 {
+.contact-form {
 	background-color: #4a5051;
     padding: 20px 0 55px 0;
 }
@@ -188,7 +183,7 @@ i {
     .form-mobile {
         margin-left: 3%;
     }
-    #section1 {
+    .about-me {
         padding: 20px 0 20px 0;
     }
 }
