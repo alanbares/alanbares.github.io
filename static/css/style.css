@@ -22,18 +22,18 @@
     background-color: #cecece;
 }
 
-.about-me {
+#about {
     background-attachment: fixed;
     background-color: #4a5051;
     padding: 55px;
 }
 
-.projects {
+#projects {
     background-color: #cecece;
     padding: 55px;
 }
 
-.contact-form {
+#contact{
 	background-color: #4a5051;
     padding: 20px 0 55px 0;
 }
