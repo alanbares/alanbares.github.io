@@ -1,6 +1,5 @@
 /**------------------------------------------------------------------
 [Table of Contents]
-*Organized from top to bottom 
 * Name of section / Search term
 
 1. Backgrounds and sizing / #Backgrounds
@@ -39,8 +38,8 @@
 }
 
 .row {
-  padding-right: 0px;
-  margin-right: 0px;
+	padding-right: 0px;
+  	margin-right: 0px;
 }
 
 /* #Navbar
@@ -72,8 +71,8 @@ ul.highlight li:hover {
 ================================ */
 
 .company {
-    font-family: 'Ubuntu', sans-serif;
-    background-color: transparent !important;
+  	font-family: 'Ubuntu', sans-serif;
+	background-color: transparent !important;
 	color: #586265;
 }
 
